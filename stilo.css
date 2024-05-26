@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(nose.gif);  
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.Contenedor{
+text-align:center;
+font-family: Oswald ,sans-serif;
+font-size: 1.75em;
+padding: 0.6em 0 0.6em 0.4em;
+color: white;
+text-shadow: 0 0.12em 0 #5e34d0;
+position: relative;
+background-size: width 20px;
+}
+
+#contact {
+width: 920px;
+height: 1100px;
+margin:2em auto;
+background:#30279d73;
+position: relative;
+}
+
+.botoncito{
+text-align: center;
+}
+
+.botoncito input {
+display:inline-block;
+text-align: center;
+display: inline-block;
+width: 30%;
+height: 55px;
+margin-top: 1em;
+margin-bottom: 6px;
+cursor: pointer;
+background: #8076fb;
+color: white;
+font-family: Oswald ,sans-serif;
+font-size: 1em;
+border: none;
+-webkit-box-shadow: 1px 1px 0 0 #473eb5,2px 2px 0 0 #473eb5,3px 3px 0 0 #473eb5;
+box-shadow: 1px 1px 0 0 #473eb5,2px 2px 0 0 #473eb5,3px 3px 0 0 #473eb5;
+-webkit-appearance: none;
+  -webkit-transition: all 250ms ease;
+-moz-transition: all 250ms ease;
+-ms-transition: all 250ms ease;
+-o-transition: all 250ms ease;
+transition: all 250ms ease;
+}
+
+.botoncito input:hover {
+-webkit-box-shadow: 1px 1px 0 0 #473eb5,0px 0px 0 0 #473eb5,0px 0px 0 0 #473eb5;
+box-shadow: 1px 1px 0 0 #473eb5,0px 0px 0 0 #473eb5,0px 0px 0 0 #473eb5;
+margin-top: 22px;
+margin-left: 2px;
+margin-bottom: 0px;
+}
+
+.seleccion{
+background: 20px
+}
